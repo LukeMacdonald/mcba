@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5CqqMedgVsBhMpEueMuWYhhtwaJ7RZsuNFD2ek2bcErldVJuZVAz7mcAr+IvcEJVr3gX8U7KJ+4X3nCnrYQXTQ==",
+  "dgSpecHash": "Z9tybAZFhyB4rZdloP5DPEWwqRILtalDUFPUB3f6TTpCa8ehhT9GilcrCGOpSzmuPjDbysQAS1hE5uRxHwfBFQ==",
   "success": true,
-  "projectFilePath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
+  "projectFilePath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
   "expectedPackageFiles": [
     "/Users/luke/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
