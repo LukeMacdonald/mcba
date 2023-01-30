@@ -1,0 +1,130 @@
+@using X.PagedList.Web.Common
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@model IPagedList<BillPay>
+
+@{
+    ViewData["Title"] = "Upcoming Payments";
+    var account = (Account)ViewBag.Account;
+    var accounts = (List<Account>)ViewBag.Accounts;
+    var accountNumber = ViewBag.AccountNumber;
+}
+<div class="container" style="display: flex;padding-top: 20px">
+    <div class="container">
+        <h1 style="color: white">Scheduled Payments:</h1>
+        @if (accountNumber != 0)
+        {
+            <h3 style="color: white">For Account: @account</h3>
+        }
+    </div>
+
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 20px;width: 300px;text-align: center;">
+            Select Account
+        </button>
+        <div class="dropdown-menu">
+            @foreach (var a in accounts)
+            {
+                <a class="dropdown-item" asp-controller="BillPay" asp-action="ViewBill" asp-route-accountNumber="@a.AccountNumber"style="width: 300px;font-size: 18px">@a</a>
+            }
+        </div>
+    </div>
+</div>
+<div>
+
+    @if (accountNumber != 0)
+    {
+        <div class="container" style="display: flex;justify-content:space-between;padding:40px">
+            <a asp-action="UnpaidBills" style="display: flex;flex-flow: row-reverse;text-decoration: none">
+                <button class="btn btn-primary btn-lg " style="text-align: center;">View Failed Payments</button>
+            </a>
+            <a asp-action="CreateBill" asp-route-accountNumber="@account.AccountNumber" style="display: flex;flex-flow: row-reverse">
+                <button class="btn btn-primary btn-lg " style="text-align: center;width:50px;height: 50px">
+                    <i class="fa fa-plus" style="font-size:30px;text-align: center"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="container" style="padding: 40px">
+            <table class="statement-table">
+                @foreach (var bill in Model)
+                {
+                    <tr style="width: 100%">
+                        <td style="padding-bottom: 30px; width: 100%">
+                            <table class="table table-striped table-dark" style="color: white;width: 100%">
+                                <tr style="text-align: center">
+                                    <th>Payment Type</th>
+                                    <th>Payment To</th>
+                                    <th>Amount</th>
+                                    <th>Scheuled Time</th>
+                                    <th>Actions</th>
+                                </tr>
+                                <tr style="margin-bottom: 20px;">
+                                    <td class="statement-table-data" style="padding-left: 20px;padding-right:20px;width:12%">
+                                        <img src="/img/bill.png" style="height: 30px;width:30px"/>
+                                        @if (bill.Period == PeriodType.OneOff)
+
+                                        {
+                                            <text>One Off</text>
+                                        }
+                                        else
+                                        {
+                                            @Html.DisplayFor(x => bill.Period)
+                                        }
+
+                                    </td>
+                                    <td class="statement-table-data" style="color: orange;width:20%;padding-left: 20px;padding-right:20px;text-align: center">
+                                        @Html.DisplayFor(x => bill.Payee.Name)
+                                    </td>
+
+                                    <td class="statement-table-data" style="color: orange;width:20%;padding-left: 20px;padding-right:20px;text-align: center">
+                                        @Html.DisplayFor(x => bill.Amount)
+                                    </td>
+                                    <td style="font-style: italic; width:20%;padding-left: 20px; padding-right:20px;text-align: center">
+                                        @bill.ScheduleTimeUtc.ToLocalTime()
+                                    </td>
+                                    <td>
+                                        <div class="container" style="display: flex;justify-content: space-evenly">
+                                            @if (bill.Active)
+                                            {
+                                                <a asp-action="PayBill" asp-route-billID="@bill.BillPayID">
+                                                    <button class="btn btn-success btn-lg" style="text-align: center;width: 60px;height: 60px;">Pay</button>
+                                                </a>
+                                                <a asp-action="EditBill" asp-route-billID="@bill.BillPayID">
+                                                    <button class="btn btn-warning btn-lg" style="text-align: center; font-size: 30px;width: 60px;height: 60px">
+                                                        <i class="fa fa-pencil-square"></i>
+                                                    </button>
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <button disabled class="btn btn-success btn-lg" style="text-align: center;width: 60px;height: 60px;">Pay</button>
+                                                <button disabled class="btn btn-warning btn-lg" style="text-align: center; font-size: 30px;width: 60px;height: 60px">
+                                                    <i class="fa fa-pencil-square"></i>
+                                                </button>
+                                            }
+                                            <a asp-action="CancelBill" asp-route-billID="@bill.BillPayID">
+                                                <button class="btn btn-danger btn-lg" style="text-align: center;font-size: 30px;width: 60px;height: 60px">
+                                                    <i class="fa fa-trash"></i>
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    }
+
+    @Html.PagedListPager(Model, page => Url.Action("ViewBills", new { page }),
+        new PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+            PageClasses = new[] { "page-link" }
+        })
+    }
+
+</div>
