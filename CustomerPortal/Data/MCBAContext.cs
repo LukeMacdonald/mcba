@@ -1,7 +1,7 @@
-using A2Practice.Models;
+using CustomerPortal.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace A2Practice.Data;
+namespace CustomerPortal.Data;
 
 public class MCBAContext :DbContext
 {

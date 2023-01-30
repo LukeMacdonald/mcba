@@ -1,8 +1,8 @@
-using A2Practice.DTO;
-using A2Practice.Models;
-using A2Practice.Utilities;
+using CustomerPortal.DTO;
+using CustomerPortal.Models;
+using CustomerPortal.Models.Enum;
 using Newtonsoft.Json;
-namespace A2Practice.Data;
+namespace CustomerPortal.Data;
 
 public static class SeedData
 {
