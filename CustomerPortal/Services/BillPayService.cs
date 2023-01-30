@@ -1,5 +1,6 @@
 using CustomerPortal.Data;
 using CustomerPortal.Models;
+using CustomerPortal.Models.Enum;
 using Microsoft.EntityFrameworkCore;
 
 namespace CustomerPortal.Services;

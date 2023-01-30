@@ -32,7 +32,7 @@ public class Account
 
     public override string ToString()
     {
-        return AccountNumber.ToString() + " (" + Enum.GetName(AccountType) + ")";
+        return AccountNumber.ToString() + " (" + System.Enum.GetName(AccountType) + ")";
     }
     public override bool Equals(object obj)
     {

@@ -1,5 +1,6 @@
-using A2Practice.Filter;
+using CustomerPortal.Filter;
 using CustomerPortal.Data;
+
 using CustomerPortal.Models;
 using CustomerPortal.Models.ViewModels;
 using ImageMagick;
