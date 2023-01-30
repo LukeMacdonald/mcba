@@ -1,0 +1,9 @@
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.csproj.AssemblyReference.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.AssemblyInfoInputs.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.AssemblyInfo.cs
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.csproj.CoreCompileInputs.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.MvcApplicationPartsAssemblyInfo.cs
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.MvcApplicationPartsAssemblyInfo.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.RazorAssemblyInfo.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/CustomerPortal.RazorAssemblyInfo.cs
