@@ -1,1 +1,4 @@
-# s3832570-s3888490-a2
+# Most Common Bank of Australia (MCBA) Application
+### Developed By: 
+ * Luke Macdonald (s3888490)
+ * Chloe Harvey (s3832570)
