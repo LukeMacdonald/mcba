@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using CustomerPortal.Models.Enum;
+using CustomerPortal.Models.Validation;
 
 namespace CustomerPortal.Models;
 
@@ -18,7 +19,7 @@ public class Account
     public virtual Customer Customer { get; set; }
     
     [Column(TypeName = "money")]
-    // [DataType(DataType.Currency),TwoDecimalPlaces,IsPositive]
+    [DataType(DataType.Currency),TwoDecimalPlaces,IsPositive]
     public decimal Balance { get; set; }
 
     // Set ambiguous navigation property with InverseProperty annotation or Fluent-API in the McbaContext.cs file.

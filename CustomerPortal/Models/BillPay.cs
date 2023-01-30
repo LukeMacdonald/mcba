@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using CustomerPortal.Models.Enum;
+using CustomerPortal.Models.Validation;
 
 namespace CustomerPortal.Models;
 public class BillPay
