@@ -1,4 +1,4 @@
-namespace CustomerPortal.Models;
+namespace CustomerPortal.Models.ViewModels;
 
 public class ErrorViewModel
 {

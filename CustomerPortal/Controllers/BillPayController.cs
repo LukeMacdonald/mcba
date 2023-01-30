@@ -1,6 +1,7 @@
 using CustomerPortal.Data;
 using CustomerPortal.Models;
-using CustomerPortal.ViewModels;
+using CustomerPortal.Models.Enum;
+using CustomerPortal.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
