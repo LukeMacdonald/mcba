@@ -1,0 +1,91 @@
+@model Customer
+@{
+    ViewData["Title"] = "Update Profile";
+    var states = new List<string>
+    {
+        "NSW", "VIC", "QLD","TAS","WA","SA","ACT","NT"
+    };
+    
+}
+<div style="padding-top: 30px">
+    <div class="text-white" style=" background-color: rgb(54, 66, 71); width: 700px;border-radius: 10px; margin: 0 auto">
+        <button type="submit" class="btn btn-secondary btn-lg" onclick="history.back()"style=";text-align: center; margin-left: 5%;margin-top: 5%">
+            <i class="fa fa-arrow-left" style="padding-right:10px;"></i>Back</button>
+        <h1 style="text-align: center;padding-top: 20px">@ViewData["Title"]</h1>
+        <form asp-action="UpdateProfile" style="width: 500px; padding: 20px;margin: 0 auto">
+            <h4>Profile Details:</h4>
+            <input type="hidden" asp-for="CustomerID"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control profile-form"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row center-block">
+                <div class="col" style="padding-top: 20px">
+                    <label asp-for="Mobile" class="control-label"></label>
+                    <input asp-for="Mobile" class="form-control profile-form" id="phone">
+                    <span asp-validation-for="Mobile" class="text-danger"></span>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding-top: 20px" \>
+                    <label asp-for="TFN" class="control-label"></label>
+                    <input asp-for="TFN" class="form-control profile-form" id='tfn'/>
+                    <span asp-validation-for="TFN" class="text-danger"></span>
+                </div>
+            </div>
+            <h5 style="padding-top: 20px">Address Details:</h5>
+            <div class="row">
+                <div class="col" style="padding-top: 10px">
+                    <label asp-for="Address" class="control-label">Street Address</label>
+                    <input asp-for="Address" class="form-control profile-form"/>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="City" class="control-label"></label>
+                    <input asp-for="City" class="form-control profile-form"/>
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <label asp-for="Postcode" class="control-label"></label>
+                    <input asp-for="Postcode" class="form-control profile-form"/>
+                    <span asp-validation-for="Postcode" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <label asp-for="State" class="control-label"></label>
+                    <select asp-for="State" class="form-select profile-form" aria-label="Default select example">
+                        @if (EnumUtils.ReverseConvertState(Model.State) == null)
+                        {
+                            <option selected>Select State:</option>
+                        }
+                        else
+                        {
+                            <option selected value=@Model.State>@EnumUtils.ReverseConvertState(Model.State)</option>
+                        }
+
+                        @foreach (var state in states)
+                        {
+                            @if (state != EnumUtils.ReverseConvertState(Model.State))
+                            {
+                                <option value=@EnumUtils.ConvertState(state)>@state</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="container" style="display: flex;justify-content: space-evenly;padding-top: 30px">
+                <button type="submit" class="btn log-in-button btn-lg" style="width: 150px;text-align: center">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
