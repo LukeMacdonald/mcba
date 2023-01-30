@@ -1,0 +1,144 @@
+@model Customer
+@{
+    ViewData["Title"] = "My Profile";
+    var states = new List<string>
+    {
+        "NSW", "VIC", "QLD", "TAS", "WA", "SA", "ACT", "NT"
+    };
+
+}
+
+<div style=" background-color: rgb(54, 66, 71); width: 100%; border-radius: 10px;display: flex; box-shadow: 0px 4px 4px #00000060; margin-top: 5%">
+    <div style="width: 50%; float:left; text-align:center; padding-top: 15%">
+        <div class="container" style="display: flex;flex-flow: column;width: max-content">
+            <div class="container"  style="background-color: white;padding: 40px;width: max-content;border-radius: 10px">
+                @if (Model.DisplayPicture != null)
+                {
+                    <img src="data:image/png;base64,@Html.DisplayFor(model => model.DisplayPicture)" style="height:300px; width:300px">
+                }
+                else
+                {
+                    <img src="/img/profile_image.png" style="height:300px; width:300px"/>
+                }
+            </div>
+            
+                <a asp-action="Profile">
+                    <form asp-action="Profile" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="CustomerID"/>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div id="updateProfileImage">
+                            <div class="form-group profile-form" style="padding-top: 5%">
+                                <input asp-for="ImageFile" type="file" class="form-control" style="width: 300px;"/>
+                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            </div>
+                            <div style="display: flex;flex-flow: row">
+                                <div class="form-group" style="padding-top: 30px">
+                                    <button type="submit" class="btn log-in-button btn-lg" style="width: 250px;;height: 50px"><i class="fa fa-edit" style="padding-right:10px;"></i> Update Profile Image</button>
+                                </div>
+                                <div class="form-group" style="padding-top: 30px">
+                                    <button asp-action="DeletePicture" class="btn log-in-button btn-lg" style="width: 50px;height: 50px"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </form>
+                </a>
+         
+            
+        </div>
+        
+    </div>
+    <div class="col" style="width: 50%; float:right;margin: 0 auto">
+        <div style="width: 500px; padding: 20px;">
+            <h1 style="text-align:center;padding-bottom: 10px; color: white">@ViewData["Title"]</h1>
+            <h4 style="color: white">Profile Details:</h4>
+            <input type="hidden" asp-for="CustomerID"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col">
+                    <label asp-for="Name" class="control-label" style="color: white"></label>
+                    <input asp-for="Name" class="form-control profile-form" readonly/>
+                </div>
+            </div>
+            <div class="row center-block">
+                <div class="col" style="padding-top: 20px">
+                    <label asp-for="Mobile" class="control-label" style="color: white"></label>
+                    <input asp-for="Mobile" class="form-control profile-form" readonly>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding-top: 20px" \>
+                    <label asp-for="TFN" class="control-label" style="color: white"></label>
+                    <input asp-for="TFN" class="form-control profile-form" readonly/>
+                </div>
+            </div>
+            <h5 style="padding-top: 20px; color: white">Address Details:</h5>
+            <div class="row">
+                <div class="col" style="padding-top: 10px">
+                    <label asp-for="Address" class="control-label" style="color: white">Street Address</label>
+                    <input asp-for="Address" class="form-control profile-form" readonly/>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 10px">
+                <div class="col-md-6">
+                    <label asp-for="City" class="control-label" style="color: white"></label>
+                    <input asp-for="City" class="form-control profile-form" readonly/>
+                </div>
+                <div class="col-md-3">
+                    <label asp-for="Postcode" class="control-label" style="color: white"></label>
+                    <input asp-for="Postcode" class="form-control profile-form" readonly/>
+                </div>
+                <div class="col-md-3">
+                    <label asp-for="State" class="control-label" style="color: white"></label>
+                    <select asp-for="State" class="form-select profile-form" aria-label="Default select example" disabled>
+                        @if (EnumUtils.ReverseConvertState(Model.State) == null)
+                        {
+                            <option selected>Select State:</option>
+                        }
+                        else
+                        {
+                            <option selected value=@Model.State>@EnumUtils.ReverseConvertState(Model.State)</option>
+                        }
+
+                        @foreach (var state in states)
+                        {
+                            @if (state != EnumUtils.ReverseConvertState(Model.State))
+                            {
+                                <option value=@EnumUtils.ConvertState(state)>@state</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+            <div style="text-align: center;padding-top: 20px">
+                <a asp-action="UpdateProfile">
+                    <button class="btn log-in-button btn-lg" style="width: 250px;height: 50px">
+                        <i class="fa fa-edit" style="padding-right:10px"></i>Edit Details
+                    </button>
+                </a>
+            </div>
+            <div style="text-align: center;padding-top: 20px">
+                <a asp-action="NewPassword">
+                    <button class="btn log-in-button btn-lg" style="width: 250px;height: 50px">
+                        <i class="fa fa-edit" style="padding-right:10px;"></i>Update Password
+                    </button>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+<script>
+    const editProfileImage = document.querySelector("#editProfileImage");
+    editProfileImage.addEventListener("click", function () {
+        document.querySelector("#updateProfileImage").show()
+          
+        });
+</script>

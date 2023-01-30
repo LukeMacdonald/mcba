@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="Data" />
       <Folder Include="Models\Enum" />
+      <Folder Include="Views\Customer" />
       <Folder Include="wwwroot\img" />
     </ItemGroup>
 
