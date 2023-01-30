@@ -2465,6 +2465,16 @@
         "runtime": {
           "lib/netstandard2.0/X.PagedList.Web.Common.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -7630,6 +7640,11 @@
         "x.pagedlist.web.common.8.0.7.nupkg.sha512",
         "x.pagedlist.web.common.nuspec"
       ]
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7644,6 +7659,7 @@
       "Microsoft.Extensions.Caching.SqlServer >= 7.0.2",
       "Newtonsoft.Json >= 13.0.2",
       "SimpleHashing.Net >= 2.1.0",
+      "Utilities >= 1.0.0",
       "X.PagedList >= 8.4.3",
       "X.PagedList.Mvc.Core >= 8.4.3",
       "X.PagedList.Web.Common >= 8.0.7"
@@ -7673,7 +7689,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
+              "projectPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
