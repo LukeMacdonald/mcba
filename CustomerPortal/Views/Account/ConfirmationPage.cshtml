@@ -1,0 +1,40 @@
+@model A2Practice.ViewModels.TransactionViewModel
+@{
+    ViewData["Title"] = "Confirm Transaction";
+}
+
+<div>
+    <table class="confirmation-table">
+        <tr style="text-align: center">
+            <td style="padding-top: 2%">
+                <img src="/img/banking.gif" style="height: 100px; padding-bottom: 20px" alt="">
+                <p style="color: black">
+                    @if (Model.TransactionType != TransactionType.Transfer)
+                    {
+                        <text>Are you sure you would like to @Enum.GetName(Model.TransactionType).ToLower() @Model.PaymentAmount.ToString("C") from account @Model.AccountNumber ? 
+                    </text>
+                    }
+                    else
+                    {
+                        <text>Are you sure you would like to @Enum.GetName(Model.TransactionType).ToLower() @Model.PaymentAmount.ToString("C") from account @Model.AccountNumber to account @Model.DestinationAccountNumber?</text> 
+                        
+                    }
+                </p>
+            </td>
+        </tr>
+        <tr style="text-align: center">
+            <td style="padding-bottom: 5%;">
+                @* If Yes is selected the CompleteTransaction Action is called *@
+                <a asp-action="CompleteTransaction" style="text-decoration: none">
+                    <button class="btn btn-success btn-lg confirmation-btn" style="height: 50px">Yes</button>
+                </a>
+                <div class="col" style="padding: 10px">
+                    <a asp-action="Transaction" asp-route-accountNumber="@Model.AccountNumber" asp-route-type="@Model.TransactionType")>
+                        <button class="btn log-in-button btn-lg confirmation-btn">Cancel </button>
+                    </a>
+                    <span asp-validation-for="PaymentAmount" class="text-danger"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>

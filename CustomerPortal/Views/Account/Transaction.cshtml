@@ -1,0 +1,76 @@
+@model A2Practice.ViewModels.TransactionViewModel
+
+@{
+    ViewData["Title"] = "Transaction";
+}
+<div style="padding-top: 30px">
+<div class="container text-white"style="background-color: rgb(54, 66, 71); ;width: 40%;padding: 50px 50px 100px;top:50%;border-radius: 10px;display: flex;flex-flow: column;">
+    <h2 style="font-weight: bold">@Model.TransactionType</h2>
+    <label  casp-for="AccountNumber" class="control-label form-group">Select Account:</label>
+    <div class="dropdown form-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle profile-form" data-bs-toggle="dropdown" style="font-size: 20px;width: 100%;text-align: center;color: black;background-color: white">
+            @if (@Model.AccountNumber != 0)
+            {
+                @($"{Model.AccountNumber} ({Model.AccountType})")
+            }
+            else
+            {
+                <text>Select Account</text>
+            }
+        </button>
+        
+        <div class="dropdown-menu">
+            @foreach (var account in @Model.CustomerAccounts)
+            {
+                if (account.AccountNumber != @Model.AccountNumber)
+                {
+                    <a class="dropdown-item" asp-controller="Account" asp-action="Transaction" asp-route-accountNumber="@account.AccountNumber" asp-route-type="@Model.TransactionType" style="width: 300px;font-size: 18px">@account</a>
+                }
+            }
+        </div>
+    </div>
+    @if (Model.AccountNumber != 0)
+    {
+        <form asp-action="Transaction">
+            
+            <input type="hidden" asp-for="TransactionType"/>
+            <input type="hidden" asp-for="AccountBalance"/>
+            <input type="hidden" asp-for="AccountType"/>
+            <input type="hidden" asp-for="TotalPayments"/>
+            <input type="hidden" asp-for="AccountNumber"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            @if (Model.TransactionType == TransactionType.Transfer)
+            {
+                <div class="form-group" style="padding: 10px 0">
+                    <label asp-for="DestinationAccountNumber" class="control-label">Transfer to:</label>
+                    <input asp-for="DestinationAccountNumber" class="form-control" maxlength="4" minlength="4">
+                    <span asp-validation-for="DestinationAccountNumber" class="text-danger"></span>
+                </div>
+            }
+            <div class="form-group" style="padding: 10px 0">
+                <label asp-for="PaymentAmount" class="control-label">Enter Amount:</label>
+                <input asp-for="PaymentAmount" class="form-control profile-form" style="width: 100%"/>
+                <span asp-validation-for="PaymentAmount" class="text-danger"></span>
+            </div>
+
+            <div class=form-group style="padding: 10px 0">
+                <label asp-for="Comment">Description:</label>
+                <textarea asp-for="Comment" class="form-control profile-form" rows="1" maxlength="30"></textarea>
+                <span asp-validation-for="Comment" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-top: 30px;text-align: center">
+                <input type="submit" value="Submit" class="btn log-in-button" style="text-align: center;width: 150px;height: 50px;font-size: 16px"/>
+            </div>
+
+
+
+        </form>
+    }
+</div>
+</div>
+        
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

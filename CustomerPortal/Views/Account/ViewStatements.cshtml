@@ -1,0 +1,147 @@
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@model IPagedList<Transaction>
+@{
+    ViewData["Title"] = "Statement";
+    var account = ViewBag.Account;
+    var accounts = (List<Account>)ViewBag.Accounts;
+
+}
+<div style="padding-top: 30px">
+    <div>
+        <div class="container" style="display: flex">
+            <div class="container">
+                <h1 style="color: white">Bank Statement:</h1>
+                @if (account != 0)
+                {
+                    <h3 style="color: white">For Account: @account</h3>
+                }
+            </div>
+        
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 20px;width: 300px;text-align: center;">
+                    Select Account
+                </button>
+                <div class="dropdown-menu">
+                    @foreach (var a in accounts)
+                    {
+                        <a class="dropdown-item" asp-controller="Account" asp-action="IndexToViewStatements" asp-route-accountNumber="@a.AccountNumber"style="width: 300px;font-size: 18px">@a</a>
+                    }
+                </div>
+            </div>
+        </div>
+        @if (account != 0)
+        {
+            <div class="container" style="background-color: rgb(54, 66, 71);padding: 2%;border-radius: 10px;margin-top:5%;margin-bottom: 5%">
+                <table class="statement-table">
+                    @foreach (var transaction in Model)
+                    {
+                        <tr style="width: 100%">
+                            <td style="padding-bottom: 30px; width: 100%">
+                                <table style="color: white;">
+                                    <tr style="margin-bottom: 20px;">
+
+                                        @if (@Enum.GetName(transaction.TransactionType).Equals("Deposit"))
+                                        {
+                                            <td class="statement-table-data" style="width: 40%">
+                                                <img src="/img/deposit.png" style="height: 30px"/> Deposit
+                                            </td>
+                                            <td class="statement-table-data" style="color: mediumseagreen;width: 40%">
+                                                + $@Html.DisplayFor(x => transaction.Amount)
+                                            </td>
+                                        }
+                                        else if (@Enum.GetName(transaction.TransactionType).Equals("Withdraw"))
+                                        {
+                                            <td class="statement-table-data" style="width: 40%">
+                                                <img src="/img/withdraw.png" style="height: 30px;"/> Withdraw
+                                            </td>
+                                            <td class="statement-table-data" style="color: indianred;width: 40%">
+                                                - $@Html.DisplayFor(x => transaction.Amount)
+                                            </td>
+                                        }
+                                        else if (@Enum.GetName(transaction.TransactionType).Equals("Transfer"))
+                                        {
+                                            <td class="statement-table-data" style="width: 40%">
+                                                @if (transaction.DestinationAccountNumber != null)
+                                                {
+                                                    <img src="/img/transfer.png" style="height: 30px;"/>
+                                                    <text>Transfer (to account @Html.DisplayFor(x => transaction.DestinationAccountNumber))</text>
+                                                }
+                                                else
+                                                {
+                                                    <img src="/img/transfer.png" style="height: 30px;"/>
+                                                    <text>Transfer</text>
+                                                }
+                                            </td>
+                                            @if (transaction.DestinationAccountNumber != null)
+                                            {
+                                                <td class="statement-table-data" style="color: indianred;width: 40%">
+                                                    - $@Html.DisplayFor(x => transaction.Amount)
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td class="statement-table-data" style="color: mediumseagreen;width: 40%">
+                                                    + $@Html.DisplayFor(x => transaction.Amount)
+                                                </td>
+                                                
+                                            }
+                                        }
+                                        else if (transaction.TransactionType == TransactionType.BillPay)
+                                        {
+                                            <td class="statement-table-data" style="width: 40%">
+                                                <img src="/img/bill.png" style="height: 30px;"/> BillPay
+                                            </td>
+                                            <td class="statement-table-data" style="color: indianred;width: 40%">
+                                                - $@Html.DisplayFor(x => transaction.Amount)
+                                            </td>
+
+                                        }
+                                        else if (transaction.TransactionType == TransactionType.ServiceCharge)
+                                        {
+                                            <td class="statement-table-data" style="width: 40%">
+                                                <img src="/img/fees.png" style="height: 30px;"/> Service Fee
+                                            </td>
+                                            <td class="statement-table-data" style="color: indianred;width: 40%">
+                                                - $@Html.DisplayFor(x => transaction.Amount)
+                                            </td>
+                                            
+                                        }
+                                        <td>
+
+                                        </td>
+                                        <td style="font-style: italic; width: 40%">
+                                            @if (transaction.Comment != null)
+                                            {
+                                                @Html.DisplayFor(x => transaction.Comment)
+                                            }
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" style="color: gray; padding-top: 10px">
+                                           @transaction.TransactionTimeUtc.ToLocalTime()
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            @* <td>@Html.DisplayFor(x => transaction.DestinationAccount)</td> *@
+
+
+                        </tr>
+                    }
+                </table>
+            </div>
+        }
+    
+
+        @Html.PagedListPager(Model, page => Url.Action("ViewStatements", new { page }),
+            new PagedListRenderOptions
+            {
+                LiElementClasses = new[] { "page-item" },
+                PageClasses = new[] { "page-link" }
+            })
+
+
+    </div>
+</div>
