@@ -18,6 +18,16 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpPost]
+    public IActionResult Index(AdminLogin adminLogin)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View();
+        }
+        return RedirectToAction("Index", "Admin");
+    }
+
     public IActionResult Privacy()
     {
         return View();
