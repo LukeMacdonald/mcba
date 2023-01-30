@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using JetBrains.Annotations;
 using CustomerPortal.Models.Enum;
+using CustomerPortal.Models.Validation;
 
 
 namespace CustomerPortal.Models;
@@ -17,12 +18,12 @@ public class Transaction
     public int AccountNumber { get; set; }
     public virtual Account Account { get; set; }
     
-    // [AccountNumberLength]
+    [AccountNumberLength]
     [ForeignKey("DestinationAccount")]
     public int? DestinationAccountNumber { get; set; }
     public virtual Account DestinationAccount { get; set; }
 
-    // [Column(TypeName = "money"),TwoDecimalPlaces]
+    [Column(TypeName = "money"),TwoDecimalPlaces]
     public decimal Amount { get; set; }
 
     [StringLength(30)]

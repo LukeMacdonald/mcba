@@ -1,303 +1,303 @@
 {
   "Files": [
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/scopedcss/projectbundle/CustomerPortal.bundle.scp.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/obj/Debug/net7.0/scopedcss/projectbundle/CustomerPortal.bundle.scp.css",
       "PackagePath": "staticwebassets/CustomerPortal.bundle.scp.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/.DS_Store",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/.DS_Store",
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/css/site.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/favicon.ico",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/.DS_Store",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/.DS_Store",
       "PackagePath": "staticwebassets/img/.DS_Store"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/HomeBackground.jpeg",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/HomeBackground.jpeg",
       "PackagePath": "staticwebassets/img/HomeBackground.jpeg"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/LandingImage.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/LandingImage.png",
       "PackagePath": "staticwebassets/img/LandingImage.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/Logo.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/Logo.png",
       "PackagePath": "staticwebassets/img/Logo.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/banking.gif",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/banking.gif",
       "PackagePath": "staticwebassets/img/banking.gif"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/bill.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/bill.png",
       "PackagePath": "staticwebassets/img/bill.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/deposit.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/deposit.png",
       "PackagePath": "staticwebassets/img/deposit.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/fees.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/fees.png",
       "PackagePath": "staticwebassets/img/fees.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/header.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/header.png",
       "PackagePath": "staticwebassets/img/header.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/login.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/login.png",
       "PackagePath": "staticwebassets/img/login.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/profile_image.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/profile_image.png",
       "PackagePath": "staticwebassets/img/profile_image.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/transfer.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/transfer.png",
       "PackagePath": "staticwebassets/img/transfer.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/withdraw.png",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/img/withdraw.png",
       "PackagePath": "staticwebassets/img/withdraw.png"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/js/site.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {

@@ -7666,19 +7666,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/chloeharvey/.nuget/packages/": {}
+    "/Users/luke/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
+      "projectUniqueName": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
       "projectName": "CustomerPortal",
-      "projectPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
-      "packagesPath": "/Users/chloeharvey/.nuget/packages/",
-      "outputPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/obj/",
+      "projectPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj",
+      "packagesPath": "/Users/luke/.nuget/packages/",
+      "outputPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chloeharvey/.nuget/NuGet/NuGet.Config"
+        "/Users/luke/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -7690,8 +7690,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
-              "projectPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj"
+            "/Users/luke/RiderProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
+              "projectPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj"
             }
           }
         }
@@ -7780,7 +7780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
   },
