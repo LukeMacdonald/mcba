@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 namespace CustomerPortal.Models;
+using Enum;
 
 public class Payee
 {

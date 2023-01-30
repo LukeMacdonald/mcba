@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using A2Practice.Utilities;
+using CustomerPortal.Models.Enum;
 
 namespace CustomerPortal.Models;
 public class BillPay

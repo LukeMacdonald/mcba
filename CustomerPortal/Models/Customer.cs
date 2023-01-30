@@ -2,7 +2,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using A2Practice.Utilities;
+using CustomerPortal.Models.Enum;
 using JetBrains.Annotations;
 
 namespace CustomerPortal.Models;
