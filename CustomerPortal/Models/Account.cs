@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using CustomerPortal.Models.Enum;
 using CustomerPortal.Models.Validation;
+using JetBrains.Annotations;
 
 namespace CustomerPortal.Models;
 
@@ -20,6 +21,7 @@ public class Account
     
     [Column(TypeName = "money")]
     [DataType(DataType.Currency),TwoDecimalPlaces,IsPositive]
+    
     public decimal Balance { get; set; }
 
     // Set ambiguous navigation property with InverseProperty annotation or Fluent-API in the McbaContext.cs file.
@@ -32,7 +34,7 @@ public class Account
 
     public override string ToString()
     {
-        return AccountNumber.ToString() + " (" + Enum.GetName(AccountType) + ")";
+        return AccountNumber.ToString() + " (" + System.Enum.GetName(AccountType) + ")";
     }
     public override bool Equals(object obj)
     {

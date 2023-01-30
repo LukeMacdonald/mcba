@@ -1,5 +1,5 @@
-using A2Practice.Data;
-using A2Practice.Models;
+using CustomerPortal.Data;
+using CustomerPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SimpleHashing.Net;

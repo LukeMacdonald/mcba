@@ -16,6 +16,50 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Account/ConfirmationPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Db25maXJtYXRpb25QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Account/Transaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9UcmFuc2FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Account/ViewStatements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9WaWV3U3RhdGVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/CreateBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9DcmVhdGVCaWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/EditBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9FZGl0QmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/UnpaidBills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9VbnBhaWRCaWxscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/ViewBills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9WaWV3QmlsbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Customer/NewPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvTmV3UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Customer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Customer/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvVXBkYXRlUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

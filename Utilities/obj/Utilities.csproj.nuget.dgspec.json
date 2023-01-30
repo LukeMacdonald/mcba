@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj": {}
+    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj": {}
   },
   "projects": {
-    "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
+    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj",
+        "projectUniqueName": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj",
-        "packagesPath": "/Users/luke/.nuget/packages/",
-        "outputPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/",
+        "projectPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj",
+        "packagesPath": "/Users/chloeharvey/.nuget/packages/",
+        "outputPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luke/.nuget/NuGet/NuGet.Config"
+          "/Users/chloeharvey/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

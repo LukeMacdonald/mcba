@@ -1,0 +1,116 @@
+@using System.Collections
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<CustomerDto>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+
+    int numCustomers = 0;
+
+    ICollection collection = Model as ICollection;
+
+    if (collection != null)
+    {
+        numCustomers = collection.Count;
+    }
+}
+
+<table class="table" style="border: transparent; width: 110%; margin-top: 5%">
+    <tr style="width: 100%">
+        <td>
+            <table>
+                <tr>
+                    <td style="padding-bottom: 20%">
+                        <div style="background-color: rgb(52,58,69); padding: 5px 20px 20px; border-radius: 10px; color: white; text-align: center">
+                            <p>Total customers:</p>
+                            <h2>@numCustomers</h2>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <div style="background-color: rgb(52,58,69); padding: 5px 20px 20px; border-radius: 10px; overflow-y: scroll; height: 40%">
+                <div style="border-bottom: 1px solid white">
+                    <table style="width: 100%; margin-bottom: 20px; margin-top: 10px">
+                        <tr>
+                            <td style="width: 5%">
+                                <form asp-action="Index">
+                                    <p style="color: white">
+                                        <input id="search" name="search" placeholder="Search customer name..." value="@ViewBag.Name"
+                                               style="border-radius: 10px; background-color: white; border: none; color: black;
+                                                                                                                       height: 40px; width: 60%"/>
+                                        <input class="button" style="padding: 1%" type="submit" value="Search"/>
+                                    </p>
+                                </form>
+
+                            </td>
+                            <td style="width: 5%; padding-left: 10%; text-align: right">
+                                <form asp-action="Index">
+                                    <input type="submit" style="padding: 1%" class="button" style=";text-align: center; margin-top: 5%; font-size: 15px;" value="Clear search">
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="padding: 10px 20px 20px; width: 100%;">
+                    <table style="color: white; width: 100%">
+                        <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr style="height: 70px;">
+                                <td>
+                                    <table style="width: 100%; margin-bottom: 50px; margin-right: auto; margin-left: auto">
+                                        <tr>
+                                            <td style="width: 10%">
+                                                <div style="width: 50px; height: 50px; background-color: rgb(68, 83, 92); border-radius: 10px; text-align: center">
+                                                    @if (@item.DisplayPicture != null)
+                                                    {
+                                                        <img src="data:image/png;base64,@Html.DisplayFor(modelItem => item.DisplayPicture)" style="height:40px; width:40px; margin-top: 3px">
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="/img/profile_image.png" style="height:40px; width:40px; margin-top: 3px"/>
+                                                    }
+
+                                                </div>
+                                            </td>
+                                            <td style="width: 20%">
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td style="width: 30%">
+                                                @Html.DisplayFor(modelItem => item.Address)
+                                            </td>
+                                            <td style="padding: 20px; width: 50%; text-align: right">
+                                                <a class="button" style="padding: 2%;" asp-action="EditCustomer" asp-route-id="@item.CustomerID">✎ Edit</a>
+                                                @if (item.Locked)
+                                                {
+                                                    <a class="button" style="padding: 2%" asp-action="EditLock" asp-route-id="@item.CustomerID">Unlock customer</a>
+                                                }
+                                                else if (!item.Locked)
+                                                {
+                                                    <a class="button" style="padding: 2%;" asp-action="EditLock" asp-route-id="@item.CustomerID">Lock customer</a>
+                                                }
+                                                <a class="button" style="padding: 2%;" asp-action="ViewCustomerAccounts" asp-route-id="@item.CustomerID">Accounts</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="3" style="color: gray">
+                                                ID: @Html.DisplayFor(modelItem => item.CustomerID)
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </td>
+    </tr>
+</table>

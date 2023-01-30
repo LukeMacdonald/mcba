@@ -1,8 +1,8 @@
-using A2Practice.Models;
+using CustomerPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace A2Practice.Filter;
+namespace CustomerPortal.Filter;
 
 public class AuthoriseCustomerAttribute : Attribute, IAuthorizationFilter
 {

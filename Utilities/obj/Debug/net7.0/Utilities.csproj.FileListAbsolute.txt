@@ -1,0 +1,24 @@
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.deps.json
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.dll
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.pdb
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.csproj.AssemblyReference.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.AssemblyInfoInputs.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.AssemblyInfo.cs
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.csproj.CoreCompileInputs.cache
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.dll
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/refint/Utilities.dll
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.pdb
+/Users/luke/CLionProjects/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/ref/Utilities.dll
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.deps.json
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.dll
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/bin/Debug/net7.0/Utilities.pdb
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.csproj.AssemblyReference.cache
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.AssemblyInfoInputs.cache
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.AssemblyInfo.cs
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.csproj.CoreCompileInputs.cache
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.dll
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/refint/Utilities.dll
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/Utilities.pdb
+/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/Debug/net7.0/ref/Utilities.dll

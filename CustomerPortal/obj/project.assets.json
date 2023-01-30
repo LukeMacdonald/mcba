@@ -2465,6 +2465,16 @@
         "runtime": {
           "lib/netstandard2.0/X.PagedList.Web.Common.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -7630,11 +7640,15 @@
         "x.pagedlist.web.common.8.0.7.nupkg.sha512",
         "x.pagedlist.web.common.nuspec"
       ]
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "/Users/luke/RiderProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj",
       "HttpPostedFileHelper >= 1.2.0",
       "Magick.NET-Q16-AnyCPU >= 12.2.2",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
@@ -7645,6 +7659,7 @@
       "Microsoft.Extensions.Caching.SqlServer >= 7.0.2",
       "Newtonsoft.Json >= 13.0.2",
       "SimpleHashing.Net >= 2.1.0",
+      "Utilities >= 1.0.0",
       "X.PagedList >= 8.4.3",
       "X.PagedList.Mvc.Core >= 8.4.3",
       "X.PagedList.Web.Common >= 8.0.7"
@@ -7770,15 +7785,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for '/Users/luke/RiderProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/luke/RiderProjects/s3832570-s3888490-a2/Utilities/Utilities.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
