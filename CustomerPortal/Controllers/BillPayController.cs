@@ -1,11 +1,11 @@
-using A2Practice.Data;
-using A2Practice.Models;
-using A2Practice.ViewModels;
+using CustomerPortal.Data;
+using CustomerPortal.Models;
+using CustomerPortal.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
 
-namespace A2Practice.Controllers;
+namespace CustomerPortal.Controllers;
 
 public class BillPayController : Controller
 {
