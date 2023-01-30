@@ -1,7 +1,3 @@
-html {
-  font-size: 14px;
-}
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -15,8 +11,188 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  font-size: 14px;
+}
+
+.navbar {
+  background: black;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
 
 body {
   margin-bottom: 60px;
+  margin-right: -100px;
+  margin-left: -100px;
+  background-color: rgb(34,39,48);
+  font-family: Verdana, serif;
+}
+
+.button{
+  background: linear-gradient(90deg, rgba(235,113,113,1) 0%, rgba(201,85,85,1) 35%, rgba(196,54,54,1) 100%);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border: none;
+  text-decoration:none;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.home-image {
+  height: 480px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  margin-top: -20px;
+  width: 100%;
+}
+.content-box {
+  background-color: white;
+  height: 500px;
+  left: 5%;
+  top: 40%;
+  width: 90%;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000060;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-title {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 60px;
+  font-family: Monospaced , ui-monospace;
+  font-weight: bold
+}
+
+.features-box {
+  align-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+  width: 75%;
+  margin-top: -60px;
+
+}
+.landing-image {
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+  z-index: -5;
+  height: 150%;
+}
+
+.landing-title-text {
+  color: white;
+  padding-right: 18%;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 50%;
+  padding-top: 10%;
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 80%;
+  height: max-content;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+tr.spaceUnder>td {
+  padding-bottom: 50px;
+}
+.transaction-button {
+  padding-top: 3%;
+  background-color: coral;
+  font-weight: bold;
+  color: white;
+}
+
+.transaction-button:hover {
+  color: black;
+}
+
+.profile-box{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20%;
+  border-radius: 10px;
+}
+.btn-outline-warning,  .btn-outline-warning:active, .btn-outline-warning:visited {
+  border-color: coral;
+  color: coral;
+  width: 250px;
+  height: 50px;
+  text-align: start
+}
+.btn-outline-warning:hover{
+  background-color: coral;
+  border-color: coral;
+}
+.account-icon{
+  font-size:64px;
+  width: 70px;
+  height: 60px;
+  margin-top: 5px
+}
+.profile-form{
+  height: 50px;
+  border-color: #dde0e3;
+  border-radius: 10px;
+}
+.btn-primary,  .btn-primary:active, .btn-primary:visited {
+  border-color: coral;
+  background-color: coral;
+  width: 250px;
+  height: 50px;
+  text-align: start
+}
+.btn-primary:hover{
+  background-color: white;
+  border-color: coral;
+  color: black;
+}
+
+.password-form{
+  height:50px;
+  width:100%;
+  border-radius: 10px;
+  padding-left: 20px
+}
+.password-icon{
+  margin-left: -40px;
+  cursor: pointer;
+
 }

@@ -1,0 +1,54 @@
+@model AccountDto
+
+@{
+    ViewData["Title"] = "Customer BillPay";
+
+    int numBillPay = @Model.BillPay.Count;
+}
+
+<div style="padding-left: 20px; padding-right: 20px; width: 100%; border-radius: 10px; background-color: rgb(52,58,69);">
+    <form asp-action="ViewCustomerAccounts" asp-route-id="@Model.CustomerID">
+        <input type="submit" class="button" style=";text-align: center; margin-top: 2%; font-size: 20px" value="⬅ Back">
+    </form>
+    <div style="padding: 10px 20px 20px; width: 100%;">
+        <table style="color: white; width: 100%">
+            <tbody>
+            @if (numBillPay == 0)
+            {
+                <h3 style="color: white; text-align: center">There are no BillPays for this account.</h3>
+            }
+            else
+            {
+                @foreach (var item in Model.BillPay)
+                {
+                    <tr style="height: 70px;">
+                        <td>
+                            <table style="width: 100%; margin-bottom: 50px; margin-right: auto; margin-left: auto">
+                                <tr>
+                                    <td style="width: 40%">
+                                        @Html.DisplayFor(modelItem => item.BillPayID)
+                                    </td>
+                                    <td style="width: 40%">
+                                        @Html.DisplayFor(modelItem => item.Amount)
+                                    </td>
+                                    <td>
+                                        <a class="button" asp-action="BlockBillPay" asp-route-accountNumber="@Model.AccountNumber"
+                                           asp-route-payID="@item.BillPayID">
+                                            Block
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            }
+
+            </tbody>
+        </table>
+    </div>
+
+</div>

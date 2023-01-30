@@ -1,0 +1,58 @@
+@using AdminPractice.Enum
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model CustomerDto
+
+@{
+    ViewData["Title"] = "Customer Accounts";
+}
+
+<div class="col-sm" style="background-color: rgb(52,58,69); padding: 5px 20px 20px; border-radius: 10px; overflow-y: scroll; height: 40%; margin-top: 5%">
+    <form asp-action="Index">
+        <input type="submit" class="button" style=";text-align: center; margin-top: 2%; font-size: 20px; background-color: rgb(168, 77, 77);
+                                                                                                          border-radius: 10px;" value="⬅ Back">
+    </form>
+    <h4 style="color: rgb(168, 77, 77); text-align: center">
+        <b>@Model.Name's Accounts</b>
+    </h4>
+    @foreach (var account in Model.Accounts)
+    {
+        <table class="table" style="width: 100%; text-align: center; margin-top: 5%">
+            <tr style="border: none;color: white">
+                <td rowspan="2" style="text-align: center;border:none;width: 15%">
+                    @if (account.AccountType == AccountType.Saving)
+                    {
+                        <i class="fa fa-dollar w3-hover-text-orange account-icon"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-credit-card w3-hover-text-orange account-icon"></i>
+                    }
+                </td>
+                <th style="width: 20%;border: none">@account.AccountType</th>
+                <td style="width: 20%;font-style: italic;border: none">Balance</td>
+                <td style="width: 20%;font-style: italic;border: none">Available</td>
+                <td style="width: 20%;border: none;vertical-align: middle;padding-left:5%;">
+                </td>
+            </tr>
+            <tr style=" color: white">
+
+                <td>@Html.DisplayFor(x => account.AccountNumber)</td>
+                <td>@Html.DisplayFor(x => account.Balance)</td>
+                @if (account.AccountType == AccountType.Checking)
+                {
+                    var available = account.Balance - 300;
+                    <td>$@Html.DisplayFor(x => available)</td>
+                }
+                else
+                {
+                    <td>@Html.DisplayFor(x => account.Balance)</td>
+                }
+                <td style="border-bottom: none">
+                    <a class="button" style="padding: 2%"
+                       asp-action="CustomerBillPay" asp-route-accountNumber="@account.AccountNumber">BillPay</a>
+                </td>
+                <td rowspan="2" style="width: 20%;border: none;vertical-align: middle;padding-left:5%;">
+            </tr>
+        </table>
+    }
+</div>

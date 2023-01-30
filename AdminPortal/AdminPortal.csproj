@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="wwwroot\img\.DS_Store" />
+    </ItemGroup>
+
 </Project>
