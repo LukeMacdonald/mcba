@@ -1,4 +1,4 @@
-using A2Practice.Models;
+using CustomerPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 

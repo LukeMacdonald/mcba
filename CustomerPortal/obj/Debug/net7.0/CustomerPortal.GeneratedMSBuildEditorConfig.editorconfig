@@ -29,6 +29,25 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9WaWV3U3RhdGVtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+[/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/CreateBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9DcmVhdGVCaWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/EditBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9FZGl0QmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/UnpaidBills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9VbnBhaWRCaWxscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/ViewBills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9WaWV3QmlsbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/Views/Customer/Index.cshtml]
+=======
 [/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/Views/BillPay/CreateBill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9DcmVhdGVCaWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +65,7 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbFBheS9WaWV3QmlsbHMuY3No
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/CustomerPortal/Views/Customer/Index.cshtml]
+>>>>>>> b5479fbd0a57087e3e2bec8d3c58d259634e4332
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
