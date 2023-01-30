@@ -9093,11 +9093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/CustomerPortalUnitTests.csproj",
+      "projectUniqueName": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/CustomerPortalUnitTests.csproj",
       "projectName": "CustomerPortalUnitTests",
-      "projectPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/CustomerPortalUnitTests.csproj",
+      "projectPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/CustomerPortalUnitTests.csproj",
       "packagesPath": "/Users/luke/.nuget/packages/",
-      "outputPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/obj/",
+      "outputPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortalUnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/luke/.nuget/NuGet/NuGet.Config"
@@ -9112,8 +9112,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj": {
-              "projectPath": "/Users/luke/CLionProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj"
+            "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj": {
+              "projectPath": "/Users/luke/RiderProjects/s3832570-s3888490-a2/CustomerPortal/CustomerPortal.csproj"
             }
           }
         }

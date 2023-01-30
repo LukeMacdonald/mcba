@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdminPortal
 build_property.RootNamespace = AdminPortal
-build_property.ProjectDir = /Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/
+build_property.ProjectDir = /Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal
+build_property.MSBuildProjectDirectory = /Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Admin/CustomerBillPay.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Admin/CustomerBillPay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3VzdG9tZXJCaWxsUGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Admin/EditCustomer.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Admin/EditCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdEN1c3RvbWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Admin/Index.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Admin/ViewCustomerAccounts.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Admin/ViewCustomerAccounts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVmlld0N1c3RvbWVyQWNjb3VudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Home/Index.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Home/Privacy.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Shared/Error.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/_ViewImports.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/_ViewStart.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/AdminPortal/Views/Shared/_Layout.cshtml]
+[/Users/luke/RiderProjects/s3832570-s3888490-a2/AdminPortal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ijziieqqrd
