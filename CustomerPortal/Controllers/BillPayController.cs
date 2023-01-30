@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
 
-namespace A2Practice.Controllers;
+namespace CustomerPortal.Controllers;
 
 public class BillPayController : Controller
 {

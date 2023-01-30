@@ -1,0 +1,73 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model A2Practice.ViewModels.BillViewModel
+
+@{
+    ViewData["title"] = "Create Payment";
+
+}
+
+<div class="container text-white"style="background-color: rgb(54, 66, 71); ;width: 40%;padding: 50px 50px 100px;top:50%;border-radius: 10px;display: flex;flex-flow: column;">
+    <button type="submit" class="btn btn-secondary btn-lg" onclick="history.back()"style=";text-align: center;width: max-content;">
+            <i class="fa fa-arrow-left" style="padding-right:10px;"></i>Back</button>
+    <h2 style="font-weight: bold;padding-top: 20px">Create New Bill:</h2>
+    <form asp-action="CreateBill">
+        <input type="hidden" asp-for="AccountNumber"/>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+        <div class=form-group style="padding-top:20px">
+            <label asp-for="BillPay.PayID" class="control-label"></label>
+            <select asp-for="BillPay.PayID" class="form-select profile-form" aria-label="Default select example">
+        
+                @foreach (var payee in Model.Payees)
+                {
+                    <option value=@payee.PayeeID>@payee.Name</option>
+                }
+            </select>
+            <span asp-validation-for="BillPay.PayID" class="text-danger"></span>
+        </div>
+        
+
+        <div class="form-group" style="padding-top:20px">
+            <label asp-for="BillPay.Amount" class="control-label"></label>
+            <input asp-for="BillPay.Amount" class="form-control profile-form"/>
+            <span asp-validation-for="BillPay.Amount" class="text-danger"></span>
+        </div>
+
+        <div class=form-group style="padding-top:20px">
+            <label asp-for="ScheduledTime">Scheduled Time:</label>
+            <input asp-for="ScheduledTime" type="datetime-local" step="60" class="form-control profile-form">
+            <span asp-validation-for="BillPay.ScheduleTimeUtc" class="text-danger"></span>
+        </div>
+
+
+        <div class=form-group style="padding-top:20px">
+            <label asp-for="BillPay.Period" class="control-label"></label>
+            <select asp-for="BillPay.Period" class="form-select profile-form" aria-label="Default select example">
+
+                @foreach (var period in Enum.GetNames(typeof(PeriodType)))
+                {
+                    if (period == "OneOff")
+                    {
+                        <option value=@Enum.Parse(typeof(PeriodType), period)>One Off</option>
+                        
+                    }
+                    else
+                    {
+                        <option value=@Enum.Parse(typeof(PeriodType), period)>@period</option>
+                    }
+
+                }
+            </select>
+            <span asp-validation-for="BillPay.Period" class="text-danger"></span>
+        </div>
+
+        <div class="form-group" style="padding-top: 30px;text-align: center">
+            <input type="submit" value="Submit" class="btn log-in-button" style="text-align: center;width: 150px;height: 50px;font-size: 16px"/>
+        </div>
+    </form>
+
+</div>
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

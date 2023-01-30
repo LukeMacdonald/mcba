@@ -1,0 +1,39 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model A2Practice.ViewModels.BillViewModel
+
+@{
+    ViewData["Title"] = "Edit Payment";
+}
+<div class="container text-white"style="background-color: rgb(54, 66, 71); ;width: 40%;padding: 50px 50px 100px;top:50%;border-radius: 10px;display: flex;flex-flow: column;">
+    <button type="submit" class="btn btn-secondary btn-lg" onclick="history.back()"style=";text-align: center;width: max-content;">
+            <i class="fa fa-arrow-left" style="padding-right:10px;"></i>Back</button>
+    <h2 style="font-weight: bold;padding-top: 20px">Edit Payment:</h2>
+    <form asp-action="EditBill">
+        <input type="hidden" asp-for="BillPayID"/>
+        <input type="hidden" asp-for="AccountNumber"/>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class=form-group style="padding-top:20px">
+            <label asp-for="AccountNumber">Account:</label>
+            <select asp-for="AccountNumber" class="form-select profile-form" aria-label="Default select example">
+                @foreach (var account in Model.Accounts)
+                {
+                    <option value=@account.AccountNumber>@account</option>
+                }
+            </select>
+            <span asp-validation-for="AccountNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="padding-top:20px">
+            <label asp-for="ScheduledTime">Scheduled Time:</label>
+            <input asp-for="ScheduledTime" class="form-control profile-form">
+            <span asp-validation-for="ScheduledTime" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="padding-top:20px">
+            <label asp-for="Amount">Paymount Amount:</label>
+            <input asp-for="Amount" class="form-control profile-form">
+            <span asp-validation-for="Amount" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="padding-top: 30px;text-align: center">
+            <input type="submit" value="Submit" class="btn log-in-button" style="text-align: center;width: 150px;height: 50px;font-size: 16px"/>
+        </div>
+    </form>
+</div>
