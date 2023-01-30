@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj": {}
+    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/MCBAWebApi/MCBAWebApi.csproj": {}
   },
   "projects": {
-    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj": {
+    "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/MCBAWebApi/MCBAWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj",
-        "projectName": "Utilities",
-        "projectPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/Utilities.csproj",
+        "projectUniqueName": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/MCBAWebApi/MCBAWebApi.csproj",
+        "projectName": "MCBAWebApi",
+        "projectPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/MCBAWebApi/MCBAWebApi.csproj",
         "packagesPath": "/Users/chloeharvey/.nuget/packages/",
-        "outputPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/Utilities/obj/",
+        "outputPath": "/Users/chloeharvey/Documents/UNI/Web Development Technologies/Assignments/A2/s3832570-s3888490-a2/MCBAWebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chloeharvey/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,6 +59,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
