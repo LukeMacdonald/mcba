@@ -1,5 +1,4 @@
 using Autofac;
-using IContainer = System.ComponentModel.IContainer;
 
 namespace CustomerPortalUnitTests.Base;
 
