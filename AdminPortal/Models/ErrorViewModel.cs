@@ -1,4 +1,4 @@
-namespace AdminPractice.Models;
+namespace AdminPortal.Models;
 
 public class ErrorViewModel
 {
