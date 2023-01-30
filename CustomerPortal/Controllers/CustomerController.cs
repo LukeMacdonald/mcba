@@ -1,5 +1,7 @@
+using A2Practice.Filter;
 using CustomerPortal.Data;
 using CustomerPortal.Models;
+using CustomerPortal.Models.ViewModels;
 using ImageMagick;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
