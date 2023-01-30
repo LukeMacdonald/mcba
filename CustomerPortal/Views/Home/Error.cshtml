@@ -1,0 +1,14 @@
+@{
+    ViewBag.Title = "Invalid Request";
+}
+
+<div class="container text-white" style="display: flex;flex-flow: row;padding-top: 5%; justify-content: space-evenly">
+    <div class="container" style="display: flex;flex-flow: column;width: 60%;padding-top:5%; text-align: center;justify-content: center">
+        <h1 style="font-weight: bolder;font-family: Impact,ui-monospace;font-size: 150px;color: red">Whoops!</h1>
+        <h5>Uh oh, we cant' seem to find the page your looking for. Try going back to previous page or back to our homepage!</h5>
+        <button class="log-in-button btn-lg" onclick="history.back();" style="margin-top: 5%;width: 150px"><i class="fa fa-arrow-left" style="padding-right:10px;"></i>Back</button>
+    </div>
+    <div class="container" style="display: flex;flex-flow: column;width: 30%;margin-right: -5%">
+        <i class="fa fa-face-sad-cry" style="font-size: 300px"></i>
+    </div>
+</div>

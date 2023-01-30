@@ -1,8 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "MCBA";
+    var isLoggedIn = Context.Session.GetInt32(nameof(Customer.CustomerID)).HasValue;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container text-white" style="display: flex;flex-flow: row;padding-top: 5%; justify-content: space-evenly">
+    <div class="container" style="display: flex;flex-flow: column;width: 30%;padding-top:15%; text-align: center">
+        <h1 style="font-weight: bolder;font-family: Impact,ui-monospace;font-size: 50px;">Building your financial future together.</h1>
+        <h4>Your home, your office, your vacation, your bank.</h4>
+        @if (!isLoggedIn)
+        {
+            <div style="text-align: center;padding-top:20px ">
+                <a asp-controller="Login" asp-action="Index">
+                    <button class="log-in-button" style="height: 50px;width: 150px">
+                        Sign in
+                    </button>
+                </a>
+            </div>
+        }
+    </div>
+    <div class="container" style="display: flex;flex-flow: column;width: 70%;margin-right: -15%">
+        <img style="height: 100%;width: 100%;" src="/img/LandingImage.png" alt=""/>
+    </div>
 </div>
